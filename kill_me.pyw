@@ -12,7 +12,7 @@ counter = 0
 def why():
     seconds = 10
 
-    webbrowser.open('https://www.google.com/')
+    webbrowser.open('https://www.youtube.com/watch?v=grd-K33tOSM')
     sleep(seconds)
     while True:
         webbrowser.open('https://static.wikia.nocookie.net/jerma-lore/images/e/e3/JermaSus.jpg/revision/latest?cb=20201206225609')
@@ -24,6 +24,8 @@ def schoology():
 def walnut():
     webbrowser.open('https://www.youtube.com/channel/UC1rHmb-Euu1R0HsVFah3VtQ')
 
+def clickme():
+    webbrowser.open('https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png')
 
 def secondary():
     webbrowser.open('secondary.py')
@@ -39,6 +41,9 @@ b2.pack()
 
 b3 = tkinter.Button(text='walnut', command=walnut, width=50)
 b3.pack()
+
+b4 = tkinter.Button(text='Click Me', command=clickme, width=50)
+b4.pack()
 
 
 window.mainloop()
