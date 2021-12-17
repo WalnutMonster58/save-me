@@ -10,7 +10,7 @@ counter = 0
 
 
 def why():
-    seconds = 5
+    seconds = 10
 
     webbrowser.open('https://www.google.com/')
     sleep(seconds)
