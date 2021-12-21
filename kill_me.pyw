@@ -37,7 +37,7 @@ def third():
 
 third()
 def binary():
-    webbrowser.open('binary.py')
+    webbrowser.open('littleGuy.py')
 
 binary()
 window = tkinter.Tk()
