@@ -31,6 +31,15 @@ def secondary():
     webbrowser.open('secondary.py')
 
 secondary()
+
+def third():
+    webbrowser.open('third.py')
+
+third()
+def binary():
+    webbrowser.open('binary.py')
+
+binary()
 window = tkinter.Tk()
 #add things here
 b1 = tkinter.Button(text='amogus', command=why, width=50)
