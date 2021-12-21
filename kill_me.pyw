@@ -40,6 +40,13 @@ def binary():
     webbrowser.open('littleGuy.py')
 
 binary()
+
+def trollface():
+    webbrowser.open('trollface.pyw')
+
+trollface()
+
+
 window = tkinter.Tk()
 #add things here
 b1 = tkinter.Button(text='amogus', command=why, width=50)
