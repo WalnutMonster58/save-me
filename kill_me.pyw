@@ -42,7 +42,7 @@ def binary():
 binary()
 
 def trollface():
-    webbrowser.open('trollface.pyw')
+    webbrowser.open('trollface.py')
 
 trollface()
 
