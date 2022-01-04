@@ -46,6 +46,10 @@ def trollface():
 
 trollface()
 
+def counter():
+    webbrowser.open('counter.py')
+
+counter()
 
 window = tkinter.Tk()
 #add things here
