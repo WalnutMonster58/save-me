@@ -8,5 +8,5 @@ counter = 0
 
 while True:
     counter = counter + 1
-    sleep(.1)
+    sleep(.01)
     print(counter)
