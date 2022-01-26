@@ -1,6 +1,5 @@
 import shutil
 from time import sleep
-from PIL import Image
 import os
 
 
