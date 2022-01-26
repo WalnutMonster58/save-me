@@ -1,6 +1,13 @@
 import shutil
+from time import sleep
+from PIL import Image
+import os
 
-original = r'C:\Users\Tyler2023411\OneDrive - York County School of Technology\Pictures'
-target = r'C:\Users\Tyler2023411\OneDrive - York County School of Technology\Pictures'
 
-shutil.copyfile(original, target)
+appleName = 0
+
+while True:
+    original = r'..\save-me\apple.jpg'
+    target = r'..\save-me\appleTest\apple{}.jpg'.format(appleName)
+    print('attempting copy')
+    appleName = appleName + 1
