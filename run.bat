@@ -1,2 +1,2 @@
-py apple.py
+py appleopener.py
 cmd -k
