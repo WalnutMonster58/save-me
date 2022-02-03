@@ -1,2 +1,1 @@
-py apple.py
-cmd -k
+pip install flask
