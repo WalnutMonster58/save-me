@@ -5,6 +5,7 @@ import webbrowser
 
 while True:
     keyboard.wait('l')
+    keyboard.press_and_release('backspace')
     keyboard.press('shift')
     keyboard.write('I love men I love men I love men I love men I love men I love men')
     keyboard.release('shift')
