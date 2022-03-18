@@ -1,12 +1,16 @@
+import pyautogui
 import keyboard
-import webbrowser
 from time import sleep
 
 counter = 0
 
-keyboard.wait("C")
+keyboard.wait('c')
 
 while counter <= 10:
-    keyboard.press_and_release("left click")
+    pyautogui.click(100, 100)
+    print(counter)
+    sleep(1)
     counter = counter + 1
-    sleep(0.33)
+
+    if counter > 10:
+        counter = 0

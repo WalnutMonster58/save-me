@@ -1,1 +1,2 @@
-pip install flask
+py macro3.py
+cmd -k
