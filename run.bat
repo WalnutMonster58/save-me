@@ -1,2 +1,2 @@
-py macro3.py
+py applesender.py
 cmd -k
