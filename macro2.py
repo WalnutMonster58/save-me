@@ -9,5 +9,4 @@ while True:
     keyboard.press('shift')
     keyboard.write('I love men I love men I love men I love men I love men I love men')
     keyboard.release('shift')
-    keyboard.press('enter')
-    keyboard.release('enter')
+    keyboard.press_and_release('enter')

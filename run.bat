@@ -1,2 +1,2 @@
-py applesender.py
+py apple.py
 cmd -k

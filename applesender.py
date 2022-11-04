@@ -22,9 +22,9 @@ while True:
         keyboard.press_and_release('backspace')
         keyboard.press_and_release('backspace')
         keyboard.write('https://youtu.be/g8EfOg7qK3M')
-        keyboard.press('enter')
-        keyboard.release('enter')
+        keyboard.press_and_release('enter')
         counter = counter + 1
+        sleep(.5)
     if counter >= 100:
         counter = 0
         print("reset")
