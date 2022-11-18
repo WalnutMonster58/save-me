@@ -44,7 +44,7 @@ def decode():
     
     for i in data:
         
-        if i != ' ':
+        if i != ' ' or '!' or '?' or ',' or '.':
             decodedMessage += str(chr(i))
             
         else: 
