@@ -1,2 +1,2 @@
-py apple.py
+py counterTyper.py
 cmd -k
