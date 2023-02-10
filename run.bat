@@ -1,2 +1,2 @@
-py counterTyper.py
+py screamer.py
 cmd -k
