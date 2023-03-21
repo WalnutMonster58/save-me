@@ -8,7 +8,7 @@ import random
 counter = 0
 
 while True:
-    bootlegTimer = random.randint(1,10)
+    bootlegTimer = random.randint(1,100)
     print(bootlegTimer)
     sleep(1)
     while bootlegTimer == 10:

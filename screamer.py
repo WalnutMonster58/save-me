@@ -10,6 +10,6 @@ while True:
         print(x)
         
         if x == vals:
-            playsound('scream.mp3', block=True)
             print('SCREAM!!!!!!!!!!!!!!!!!!!!!!!!')            
+            playsound('audio/scream.mp3', block=True)
     

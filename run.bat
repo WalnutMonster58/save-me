@@ -1,2 +1,2 @@
-py screamer.py
+py randomStuffLOL\main.py
 cmd -k
